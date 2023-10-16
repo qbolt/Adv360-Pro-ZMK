@@ -1,3 +1,9 @@
+macro_ctrl-shift-p: macro_ctrl-shift-p{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl-shift-p";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp P>, <&kt LCTRL>;
+};
 macro_win_lock: macro_win_lock{
 compatible = "zmk,behavior-macro";
 label = "macro_win_lock";
